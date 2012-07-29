@@ -27,7 +27,7 @@ module Gmaps4rails
       process_map_options
       
       @js << "#{gmap_id}.initialize();"
-      @js << "#{gmap_id}.createStamenMap();"
+      #@js << "#{gmap_id}.createStamenMap();"
 
       process_data
 
